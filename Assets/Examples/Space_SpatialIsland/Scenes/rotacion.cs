@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class rotacion : MonoBehaviour
 {
-    public Vector3 velocidadRotacion = new Vector3(0, 0, 50); // Ejes en los que rota (X, Y, Z)
+    public Vector3 velocidadRotacion = new Vector3(0, 0, 50); //
 
     void Update()
-    {
+    {   
         transform.Rotate(velocidadRotacion * Time.deltaTime);
     }
 }
